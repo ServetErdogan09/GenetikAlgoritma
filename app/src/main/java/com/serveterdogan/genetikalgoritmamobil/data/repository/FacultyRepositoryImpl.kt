@@ -6,6 +6,12 @@ import com.serveterdogan.genetikalgoritmamobil.domain.repository.FacultyReposito
 import org.jetbrains.annotations.Async
 import javax.inject.Inject
 
+/*
+repoları bundan dolay ayırdık
+api değişirse repoistory hem implementation hem interface oslaydı repository dosyası dğişirdi
+ayrı repolar yaptığımız için domain içindeki interface de bir değişiklik olmayacaktı çünkü api ile herhangi bir bağlantısı yok
+bundan dolay sadece implementation değişirdi Clean Architecture’da tek bir kural var iç katmanlar dış katmanları bilmez
+ */
 class FacultyRepositoryImpl @Inject constructor(
     private val api : FacultyApiService
 ) : FacultyRepository {
@@ -21,8 +27,7 @@ class FacultyRepositoryImpl @Inject constructor(
 
     override suspend fun addFaculty(faculty: Faculty): Result<Faculty> {
         return  try {
-           val faculty =  api.addFaculty(faculty)
-            Result.success(faculty)
+            Result.success( api.addFaculty(faculty))
         }catch (e : Exception){
             Result.failure(e)
         }
