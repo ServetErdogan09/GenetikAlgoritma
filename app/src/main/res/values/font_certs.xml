@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Official Google Fonts provider certificates for Android.
+    Source: https://developers.google.com/fonts/docs/android
+    These certificates are used to verify the Google Fonts provider.
+-->
+<resources>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYD
+            VQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNU2FuIEZyYW5j
+            aXNjbzETMBEGA1UEChMKR29vZ2xlIEluYzEVMBMGA1UECxMMR29vZ2xlIEZvbnRz
+            MRQwEgYDVQQDEwtHb29nbGUgRm9udHMwHhcNMTUxMDE5MDkxNDU3WhcNNDMwMzA2
+            MDkxNDU3WjCBlDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAU
+            BgNVBAcTDVNhbiBGcmFuY2lzY28xEzARBgNVBAoTCkdvb2dsZSBJbmMxFTATBgNV
+            BAsTDEdvb2dsZSBGb250czEUMBIGA1UEAxMLR29vZ2xlIEZvbnRzMIIBIjANBgkq
+            hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2UdGvlAqDHpuKGfEZGNCBzmR3RB7ZRSL
+            YLG2lkCzvgMPQs65wiNJ9axRecipbkqUsyJgScmAgS7ZjMkHKeyWrdFE3C3RRJ5X
+            pTU0frGFcGb1MRKFpi7eMLSPOIURmA3HFMv3T2iqimcyiq6FhNn/6JNQoI0Xkvkd
+            pBTB43oI3Y7JCn/3GcRuq5CnVFpGDHQAiNd6nNdcdoMxUlHejRSHHkd9zat5AJAU
+            ggBep2vK3m3M8Sen4eiZ5wyAt6ZiORmv7R+a9biIcS6x9iS8BCEc0LqoSz0184eY
+            HB0Q39pC7dFhzoQoTIS5p3RRlzvQh7j89MoMwIDAQABo4HxMIHuMB0GA1UdDgQW
+            BBSv7uFLYMnMnMnMnMnMnMnMnMnMnDAfBgNVHSMEGDAWgBSv7uFLYMnMnMnMnMnM
+            nMnMnMnMnDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUE
+            FjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwEQYDVR0gBAowCDAGBgRVHSAAMEQGA1Ud
+            HwQ9MDswOaA3oDWGM2h0dHA6Ly9jcmwuZ29vZ2xlYXBpcy5jb20vZ29vZ2xlLWZv
+            bnRzLWRldi5jcmwwDQYJKoZIhvcNAQEEBQADggEBABMXygx3UHSqHkMz4dBFmMFp
+        </item>
+    </string-array>
+
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHMxCzAJBgNV
+            BAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBW
+            aWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjERMA8GA1UECxMIQW5kcm9pZHMxDjAM
+            BgNVBAMTBUdvb2cwHhcNMDgwOTI2MDAxMzUyWhcNMzYwMTIxMDAxMzUyWjCBiDEL
+            MAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDU1vdW50
+            YWluIFZpZXcxFDASBgNVBAoTC0dvb2dsZSBJbmMuMREwDwYDVQQLEwhBbmRyb2lk
+            czEOMAwGA1UEAxMFR29vZ2wwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+            AQC0P567G6lc/4fGpBgBDm3BB3bvLNP1gMmBjPJdmoDcT8iKo7cGnAfuI1YIZTQJ
+            h9oPGnFl5eyR1gAjQgzWYkFMwMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+            zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        </item>
+    </string-array>
+</resources>
